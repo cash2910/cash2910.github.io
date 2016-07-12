@@ -1,0 +1,176 @@
+  @font-face {
+    font-family: 'BlairMdITCTTMedium';
+    src: url('../fonts/BlairMdITCTTMedium.ttf') format('truetype');
+    /*src: url('fonts/neues_bauen_demo-webfont.eot');
+    src: url('../fonts/neues_bauen_demo-webfont.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/neues_bauen_demo-webfont.woff') format('woff'),
+     url('../fonts/neues_bauen_demo-webfont.svg#NeuesBauenDemo') format('svg');*/
+    font-weight: bold;
+  }
+
+
+
+
+.smoothscroll{
+    padding-top: 66px;
+}
+#topBar{
+    display: none;
+}
+#topMain{
+    float: right;
+}
+#topNav a.logo{
+    float: left;
+    display: block;
+    height: 100%;
+    width: 135px;
+    background-color: #e1221a;
+    top: 0;
+}
+.lead{
+    color: #abd0ce;
+}
+.store-btn{
+    display: block;
+    width: 75px;
+    height: 75px;
+    background: url('css/store.png') #b1a995 center center no-repeat;
+    background-size: 60%;
+    border-radius: 100%;
+
+}
+#sub-store-btn{
+    display: block;
+    width: 150px;
+    height: 75px;
+    border-radius: 75px 0 0 75px;
+    position: fixed;
+    right: -75px;
+    top: 260px;
+    background-color: #b1a995;
+    text-align: left;
+    line-height: 75px;
+    transition: right 0.3s ease-in;
+    display: none;
+}
+#sub-store-btn img{
+    width: 45px;
+    margin-left: 20px;
+}
+#sub-store-btn:hover{
+    right: 0;
+}
+.showcase h3.three{
+    width: 100%;
+}
+div.side-nav ul.list-group-noicon > li{
+    background-color: #f7f7f7;
+}
+.toy .shop-item-summary p{
+    border-top: 1px dashed #fff;
+    margin: 10px 0;
+}
+.showcase .arrow{
+    display: none;
+}
+.showcase {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.weight-500 {
+    font-weight: 800 !important;
+    font-size: 40px;
+    font-family: "BlairMdITCTTMedium" !important;
+}
+.back-to-top{
+    background-color: #fff;
+    color: #333;
+    box-shadow: 1px 1px 5px #333;
+    padding: .4rem 6rem;
+    border: 0 none;
+}
+.showcase .img-responsive {
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 3px;
+}
+.showcase .row .case{
+    box-shadow: 1px 1px 5px #ccc;
+    border-radius: 3px;
+}
+
+.owl-prev{
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    margin-top: -24px;
+}
+.owl-next{
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    margin-top: -24px;
+}
+
+.layout-re {
+    margin-bottom: 15px;
+}
+.layout-re img{
+    float: left;
+    width: 40% !important;
+}
+.layout-re figcaption{
+    float: left;
+    width: 60%;
+    padding: 0 15px;
+}
+.layout-re h5{
+    font-size: 16px;
+    color: #fff;
+    background: url('css/bg1.png') repeat center top ;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 992px){
+    .nav-main-collapse{
+        position: absolute !important;
+        left: 0;
+        top: 0;
+    }
+    #topMain{
+        float: left;
+    }
+    #header #topNav a.logo{
+        transform: scale(0.5);
+    }
+    .smoothscroll{
+        padding-top: 0;
+    }
+    .store-btn{
+        display: none;
+    }
+
+    .layout-re {
+        margin-bottom: 15px;
+    }
+    .layout-re img{
+        width: 100% !important;
+    }
+    .layout-re figcaption{
+        padding: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .layout-re h5{
+        font-size: 16px;
+        color: #fff;
+        background: url('Toys%20%7C%20Hape%20Toys_files/bg1.png') repeat center top ;
+        padding: 10px;
+        margin: 0;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+}
