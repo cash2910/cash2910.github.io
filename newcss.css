@@ -1,11 +1,13 @@
   @font-face {
     font-family: 'BlairMdITCTTMedium';
-    src: url('../fonts/BlairMdITCTTMedium.ttf') format('truetype');
+    src: url('fonts/BlairMdITCTTMedium.ttf') format('truetype');
     /*src: url('fonts/neues_bauen_demo-webfont.eot');
     src: url('../fonts/neues_bauen_demo-webfont.eot?#iefix') format('embedded-opentype'),
      url('../fonts/neues_bauen_demo-webfont.woff') format('woff'),
      url('../fonts/neues_bauen_demo-webfont.svg#NeuesBauenDemo') format('svg');*/
     font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
   }
 
 
@@ -35,7 +37,7 @@
     display: block;
     width: 75px;
     height: 75px;
-    background: url('css/store.png') #b1a995 center center no-repeat;
+    background: url('media/store.png') #b1a995 center center no-repeat;
     background-size: 60%;
     border-radius: 100%;
 
@@ -80,7 +82,7 @@ div.side-nav ul.list-group-noicon > li{
 }
 .weight-500 {
     font-weight: 800 !important;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "BlairMdITCTTMedium" !important;
 }
 .back-to-top{
@@ -127,7 +129,7 @@ div.side-nav ul.list-group-noicon > li{
 .layout-re h5{
     font-size: 16px;
     color: #fff;
-    background: url('css/bg1.png') repeat center top ;
+    background: url('media/bg1.png') repeat center top ;
     padding: 10px;
     margin: 0;
     font-weight: bold;
@@ -167,7 +169,7 @@ div.side-nav ul.list-group-noicon > li{
     .layout-re h5{
         font-size: 16px;
         color: #fff;
-        background: url('css/bg1.png') repeat center top ;
+        background: url('media/bg1.png') repeat center top ;
         padding: 10px;
         margin: 0;
         font-weight: bold;
